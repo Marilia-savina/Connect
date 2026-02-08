@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+@import url('https://fonts.googleapis.com');
+
+:root{
+    --font-inter: 'Inter', sans-serif;
+    --font-source: 'Source Sans 3',sans-serif;
+    --font-alatsi: 'Alatsi', sans-serif;
+
+
+
+    --color-primary:  #205691;
+    --color-text: #ffffff;
+    --color-txt-article: #122f97;
+    --color-border-img: #00AAFF;
+
+}
+ body{
+    font-family: var(--font-Inter);
+ }

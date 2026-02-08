@@ -1,0 +1,36 @@
+.containerAbaFooter{
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    color: var(--color-text);
+
+    .caixaLh{
+        width: 20vw;
+        //border: solid;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logoFooter{
+        width: 4rem;
+    }
+    h1{
+        //border: solid;
+        width: 9rem;
+        font-family: var(--font-inter);
+        font-weight: lighter;
+        font-size: 1.6rem;
+    }
+    p{
+      //  border: solid;
+        width: 30vw;
+    }
+    div{
+       // border: solid;
+        width: 15vw;
+        display: flex;
+        justify-content: space-around;        
+    }
+}
