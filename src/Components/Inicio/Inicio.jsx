@@ -1,4 +1,4 @@
-import styles from "../Inicio/inicio.module.scss"
+import styles from "./Inicio.module.scss"
 import imgInicial from "../../assets/img-tela-inicial.png"
 
 function Inicio(){

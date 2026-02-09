@@ -6,7 +6,7 @@ import perfil from"../../assets/foto_PERFIL.jpeg"
 
 import Inicio from "../Inicio/Inicio"
 import Perfil from "../Perfil/Perfil"
-import quemSomos from "../QuemSomos/QuemSomos"
+import QuemSomos from "../QuemSomos/QuemSomos"
 import acoesDaConnect from "../AcoesDaConnect/Acoes"
  
 import styles from "./NavBar.module.scss"
@@ -29,7 +29,7 @@ function NavBar (){
                 <Link to="/acoesDaConnect">Ações da Connect</Link>
             </li>
             <li>
-                <Link to="/quemSomos">Quem Somos</Link>
+                <Link to="/QuemSomos">Quem Somos</Link>
             </li>
         </ul>
         <Link to="/Perfil" ><img className={styles.ftPerfil} src={perfil} alt="foto de perfil" /></Link>
@@ -38,7 +38,7 @@ function NavBar (){
 <Routes> 
     <Route path="/" element={<Inicio />} />
     <Route path="/acoesDaConnect" element={<acoesDaConnect/>} />
-    <Route path="/quemSomos" element={<quemSomos/>} />
+    <Route path="/QuemSomos" element={<QuemSomos/>} />
     <Route path="/Perfil" element={<Perfil/>} />
 </Routes>
               

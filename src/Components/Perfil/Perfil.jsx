@@ -2,6 +2,7 @@ import styles from "./Perfil.module.scss"
 import ftPerfil from "../../assets/foto_PERFIL.jpeg"
 
 function Perfil() {
+    
  return(
   <section className={styles.containerAbaPerfil}>
     <article>
