@@ -7,7 +7,7 @@ import perfil from"../../assets/foto_PERFIL.jpeg"
 import Inicio from "../Inicio/Inicio"
 import Perfil from "../Perfil/Perfil"
 import QuemSomos from "../QuemSomos/QuemSomos"
-import acoesDaConnect from "../AcoesDaConnect/Acoes"
+import AcoesDaConnect from "../AcoesDaConnect/Acoes"
  
 import styles from "./NavBar.module.scss"
 
@@ -26,7 +26,7 @@ function NavBar (){
                 <Link to="/">Início</Link>
             </li>
             <li>
-                <Link to="/acoesDaConnect">Ações da Connect</Link>
+                <Link to="/AcoesDaConnect">Ações da Connect</Link>
             </li>
             <li>
                 <Link to="/QuemSomos">Quem Somos</Link>
@@ -37,7 +37,7 @@ function NavBar (){
 
 <Routes> 
     <Route path="/" element={<Inicio />} />
-    <Route path="/acoesDaConnect" element={<acoesDaConnect/>} />
+    <Route path="/AcoesDaConnect" element={<AcoesDaConnect/>} />
     <Route path="/QuemSomos" element={<QuemSomos/>} />
     <Route path="/Perfil" element={<Perfil/>} />
 </Routes>

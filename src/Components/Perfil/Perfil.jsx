@@ -6,7 +6,8 @@ function Perfil() {
  return(
   <section className={styles.containerAbaPerfil}>
     <article>
-        <img src={ftPerfil} alt="foto perfil" />         
+        <img src={ftPerfil} alt="foto perfil" />   
+
          <div>
             <h2>Marília Marinho</h2>
             <h3>Voluntário(a) ativo(a)</h3>
@@ -22,11 +23,14 @@ function Perfil() {
 
         <ul>
             <li>Educação </li>
-            <li>Meio ambiente</li>
+            <li>Hiking</li>
             <li>Assistencia Social</li>
             <li>Back-End</li>
             <li>Cibersegurança</li>
+            <li>Java</li>
+            <li>Meio Ambiente</li>
         </ul>
+
         </div>
 
     </article>

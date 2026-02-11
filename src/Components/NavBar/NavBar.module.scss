@@ -1,61 +1,79 @@
-  
-
-.NavBar{
-    background-color:var(--color-primary);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 12vh;
-   // font-family:var(--font-alatsi);
-   // font-weight: 100;
-
-    
-
-    ul{
-      //  border: solid red;
-        width: 60%;
-        height: 5vh;
-        display: flex;
-        justify-content: space-around;
-        font-family: var(--font-inter);
-        font-weight: lighter ;
-        align-items: center;
-    }
-
-    a{
-        color: var(--color-text);
-        font-size: 1.30rem;
-    }
-
-    img{
-        width: 5rem;
-    
- 
-    }
-    .ftPerfil{
-        border-radius: 100%;
-        border: solid, var(--color-border-img);
-        width: 6vw;
-        height: 11vh;
-    }
-}
+  .NavBar {
+      background-color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 12vh;
+      // font-family:var(--font-alatsi);
+      // font-weight: 100;
 
 
-@media (min-width: 200px) and (max-width:500px) {
-    .NavBar{
-        background-color: yellow ;
-        a{
-            font-size: .85rem;
+
+      ul {
+          //  border: solid red;
+          width: 60%;
+          height: 5vh;
+          display: flex;
+          justify-content: space-around;
+          font-family: var(--font-inter);
+          font-weight: lighter;
+          align-items: center;
+      }
+
+      a {
+          color: var(--color-text);
+          font-size: 1.30rem;
+      }
+
+      img {
+          width: 5rem;
+
+
+      }
+
+      .ftPerfil {
+          border-radius: 100%;
+          border: solid, var(--color-border-img);
+          width: 6vw;
+          height: 11vh;
+      }
+  }
+
+
+  @media (min-width: 200px) and (max-width:500px) {
+      .NavBar {
+          //background-color: yellow ;
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          height: 9vh;
+
+          ul{
+
+            //border: solid red;
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            
+
+            a{
+               // border: solid pink;
+                font-size: .75rem;
+            }
+          }
+
+          .logo {
+            //border: solid green;
+              width: 7vw;
+              height: 4vh;
+          }
+
+          .ftPerfil {
+              //border: solid green;
+              height: 6vh;
+              width: 10vw;
+
+          }
+
         }
     }
-    .logo{
-        width: 10vh;
-    }
-    .ftPerfil{
-        border: solid green;
-        height: 7vh;
-        width:25vw;
-
-    }
-
-}

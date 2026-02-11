@@ -19,9 +19,9 @@ function Footer (){
           
         
         <div>
-          <img src={whats} alt="" />
-          <img src={insta} alt="" />
-          <img src={linke} alt="" />
+          <img src={whats} alt="icone whatsap" />
+          <img src={insta} alt=" logo ista" />
+          <img src={linke} alt=" logo linkedin" />
         </div>
         
 

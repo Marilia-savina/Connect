@@ -1,4 +1,4 @@
-.containerAbaFooter{
+.containerAbaFooter {
     background-color: var(--color-primary);
     display: flex;
     justify-content: space-around;
@@ -6,31 +6,88 @@
     height: 10vh;
     color: var(--color-text);
 
-    .caixaLh{
+    .caixaLh {
         width: 20vw;
         //border: solid;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .logoFooter{
+
+    .logoFooter {
         width: 4rem;
     }
-    h1{
+
+    h1 {
         //border: solid;
         width: 9rem;
         font-family: var(--font-inter);
         font-weight: lighter;
         font-size: 1.6rem;
     }
-    p{
-      //  border: solid;
+
+    p {
+        //  border: solid;
         width: 30vw;
     }
-    div{
-       // border: solid;
+
+    div {
+        // border: solid;
         width: 15vw;
         display: flex;
-        justify-content: space-around;        
+        justify-content: space-around;
+    }
+}
+
+
+
+
+
+@media (min-width: 200px) and (max-width:500px) {
+
+    .containerAbaFooter {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 20vh;
+        text-align: center;
+        justify-content: space-evenly;
+       // margin: 1rem;
+
+        .caixaLh {
+           // border: solid blue;
+            width: 15rem;
+
+            .logoFooter {
+                width: 3rem;
+            }
+
+            h1 {
+              //  border: solid yellow;
+                width: 10rem;
+
+                font-weight: lighter;
+                font-size: 1.6rem;
+            }
+        }
+
+        p {
+           // border: solid;
+            width: 22rem;
+            font-size: .8rem;
+        }
+
+        div {
+           // border: solid red;
+            width: 60vw;
+            display: flex;
+            justify-content: space-around;
+
+            img{
+               // border-style: solid green;
+                width: 12dvw;
+            }
+
+        }
+
     }
 }
