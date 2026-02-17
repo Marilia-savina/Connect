@@ -32,10 +32,15 @@
     }
 
     div {
-        // border: solid;
+       // border: solid;
         width: 15vw;
         display: flex;
         justify-content: space-around;
+
+        img{
+          //  border: solid;
+            width: 3.5rem;
+        }
     }
 }
 
@@ -48,9 +53,9 @@
     .containerAbaFooter {
         display: flex;
         flex-direction: column-reverse;
-        height: 20vh;
+        height: 25vh;
         text-align: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
        // margin: 1rem;
 
         .caixaLh {
@@ -77,14 +82,13 @@
         }
 
         div {
-           // border: solid red;
+          // border: solid red;
             width: 60vw;
-            display: flex;
-            justify-content: space-around;
+            height: 6vh;
 
             img{
-               // border-style: solid green;
-                width: 12dvw;
+               border-style: solid green;
+                width: 10vw;
             }
 
         }

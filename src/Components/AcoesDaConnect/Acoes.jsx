@@ -34,7 +34,7 @@ function Acoes() {
     {
       id: 3,
       imagem: Esporte,
-      titulo: ">Esporte e Inclusão",
+      titulo: "Esporte e Inclusão",
       descricao: "Organizar treinos e jogos que incentivem a participação de todos. Promover disciplina, saúde e trabalho em equipe entre jovens.",
       botao: "Quero participar",
 
@@ -58,7 +58,7 @@ function Acoes() {
     {
       id: 6,
       imagem: Conecta,
-      titulo: "Instituto Conecta Jovem<",
+      titulo: "Instituto Conecta Jovem",
       descricao: "Doe computadores usados, tablets ou celulares em bom estado para permitir que jovens tenham acesso ao mundo digital.",
       botao: "Quero Doar",
 

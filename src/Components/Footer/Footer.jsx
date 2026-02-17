@@ -9,7 +9,7 @@ import styles from "./Footer.module.scss"
 
 function Footer (){
     return(
-      <section className={styles.containerAbaFooter}>
+      <footer className={styles.containerAbaFooter}>
           <div className={styles.caixaLh}>
             <img className={styles.logoFooter} src={logo} alt="logo" />
             <h1>Connect</h1>
@@ -23,9 +23,9 @@ function Footer (){
           <img src={insta} alt=" logo ista" />
           <img src={linke} alt=" logo linkedin" />
         </div>
-        
+    
 
-        </section>
+        </footer>
     )
 }
 export default Footer

@@ -5,4 +5,4 @@ function  QuemSomos(){
     </>
   )
 }
-  export default QuemSomos
+  export default QuemSomos 
