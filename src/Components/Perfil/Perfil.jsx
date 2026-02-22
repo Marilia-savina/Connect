@@ -7,7 +7,7 @@ function Perfil() {
   <section className={styles.containerAbaPerfil}>
     <article>
         <img src={ftPerfil} alt="foto perfil" />   
-
+   
          <div>
             <h2>Marília Marinho</h2>
             <h3>Voluntário(a) ativo(a)</h3>

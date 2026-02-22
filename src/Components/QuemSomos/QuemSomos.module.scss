@@ -1,0 +1,94 @@
+.containerAbaQS{
+    border: solid;
+    display: flex;
+    height: 100vh;
+
+    background-image:url(/src/assets/backgroundQuemSomos.png);
+
+
+    
+    
+    .containerText{
+      // border: solid rgb(4, 209, 4);
+       width:38%;
+       margin-left: auto;
+
+
+       h2{
+        //border: solid  red;
+        color: var(--color-primary);
+        margin: 3rem;
+        margin-left: 0;
+        font-size: 2rem;
+        word-spacing: 0.6;
+       }
+
+       
+
+      p{
+        margin: 1.8rem;
+        margin-left: 0;
+        width: 94%;
+ 
+        font-size: 1.3rem;
+        font-family: var(--inter);
+        
+              
+      }
+
+
+
+
+       
+    }
+}  
+
+
+@media (min-width: 200px) and (max-width:500px) {
+.containerAbaQS{
+    border: solid;
+    display: flex;
+    height: 100vh;
+
+    background-image:none;
+    margin: auto;
+    text-align: center;
+  
+
+
+    
+    
+    .containerText{
+      border: solid rgb(4, 209, 4);
+      width: 90%;
+      margin: auto;
+      height: 100vh;
+      text-align: center;
+      
+
+       h2{
+        //border: solid  red;
+        color: var(--color-primary);
+        font-family: var(--course);
+        margin: 1rem;
+        margin-left: 0;
+        margin-top: 2rem;
+        font-size: 2rem;
+        word-spacing: 0.6; 
+       }
+
+       
+
+      p{
+        margin: 1.8rem;
+        margin-left: 0;
+        width: 94%;
+        font-size: 1.2rem;
+        font-family: var(--inter);
+        font-weight: bold,400;
+      }
+
+
+}
+}
+}
