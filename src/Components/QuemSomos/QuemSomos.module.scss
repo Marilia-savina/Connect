@@ -1,5 +1,5 @@
 .containerAbaQS{
-    border: solid;
+    //border: solid;
     display: flex;
     height: 100vh;
 
@@ -17,6 +17,7 @@
        h2{
         //border: solid  red;
         color: var(--color-primary);
+        font-family: var(--font-source);
         margin: 3rem;
         margin-left: 0;
         font-size: 2rem;
@@ -30,8 +31,8 @@
         margin-left: 0;
         width: 94%;
  
-        font-size: 1.3rem;
-        font-family: var(--inter);
+        font-size: 1.2rem;
+        font-family: var(--font-inter);
         
               
       }
@@ -69,7 +70,7 @@
        h2{
         //border: solid  red;
         color: var(--color-primary);
-        font-family: var(--course);
+        font-family: var(--font-source);
         margin: 1rem;
         margin-left: 0;
         margin-top: 2rem;

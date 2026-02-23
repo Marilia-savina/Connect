@@ -1,5 +1,7 @@
-import styles from "./Inicio.module.scss"
 import imgInicial from "../../assets/img-tela-inicial.png"
+import styles from "./src/Components/Inicio/Inicio.module.scss"
+
+
 
 function Inicio(){
     return(
@@ -13,7 +15,7 @@ function Inicio(){
 
         <img src={imgInicial} alt="imagem da tela inicial"/> 
 
-         </section>
+        </section>
     )
  
 }
