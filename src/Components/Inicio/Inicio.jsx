@@ -1,5 +1,5 @@
 import imgInicial from "../../assets/img-tela-inicial.png"
-import styles from "./src/Components/Inicio/Inicio.module.scss"
+import styles from "./Inicio.module.scss"
 
 
 
