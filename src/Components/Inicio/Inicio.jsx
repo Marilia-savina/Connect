@@ -1,5 +1,5 @@
 import imgInicial from "../../assets/img-tela-inicial.png"
-import styles from "./Inicio.module.scss"
+import styles from "./inicio.module.scss"
 
 
 
@@ -13,7 +13,7 @@ function Inicio(){
         <p>Conectamos sua empresa com projetos sociais impactantes. Juntos, criamos mudanças reais na comunidade.</p>
         </div>
 
-        <img src={imgInicial} alt="imagem da tela inicial"/> 
+        <img src={imgInicial} alt= "imagem da tela inicial"/> 
 
         </section>
     )
