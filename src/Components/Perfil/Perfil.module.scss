@@ -1,6 +1,6 @@
 .containerAbaPerfil {
-    // border: solid palevioletred;  
-    height: vh;
+        //border: solid palevioletred;  
+        padding-left: 8rem;
 
     article {
         // border: solid rgb(133, 136, 133);
@@ -14,17 +14,17 @@
 
 
         img {
-            // border: solid var(--color-border-img);
-            width: 30%;
-            height: 60vh;
+            border: solid var(--color-border-img);
+            width: 25%;
+            height: 40vh;
             border-radius: 50%;
         }
 
         div {
            // border:  solid yellow;
             display: flex;
-            width: 50%;
-            height: 70%;
+            width: 65%;
+            height: 80%;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
@@ -103,18 +103,17 @@
     .containerAbaPerfil {
         //border: solid blue;
         height: 100vh;
+        padding-left: 0;
 
         article {
-            // border: solid red;
+            //border: solid red;
             display: flex;
             flex-direction: column;
-            margin: initial;
             justify-content: space-evenly;
             width: 100%;
             height: 100vh;
             align-items: center;
-
-
+            
 
             img {
                 // border: solid rgb(50, 22, 148);
@@ -124,7 +123,7 @@
             }
 
             div {
-                //border: solid  yellow;
+               // border: solid  yellow;
                 width: 100%;
                 height: 85vh;
                 display: flex;

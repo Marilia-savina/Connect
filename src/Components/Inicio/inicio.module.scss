@@ -1,35 +1,38 @@
 .containerAbaInicial {
     display: flex;
+    justify-content: center;
 
     .textInicio {
-       // border: solid purple;
+        //border: solid purple;
         display: flex;
         flex-direction: column;
         justify-content: center;
         //margin-left: 2rem;
+        margin-left: 2rem;
 
         h1 {
-           // border: solid green;
+            // border: solid green;
             width: 100%;
             height: 30vh;
             color: var(--color-primary);
             font-family: var(--font-source);
             font-size: 5rem;
-
-
+            margin-left: 1.8rem;
         }
 
         p {
-            // border: solid red;
+            //border: solid red;
             width: 85%;
             margin-top: 3rem;
             font-size: 1.5rem;
             color: var(--color-primary);
+            margin-left: 1.7rem;
+
         }
     }
 
     img {
-        //border: solid blue;
+        // border: solid blue;
         width: 45%;
     }
 }
@@ -47,6 +50,7 @@
         .textInicio {
             display: flex;
             align-items: center;
+            margin-left: 0rem;
 
             h1 {
                 //border: solid green;
@@ -63,9 +67,11 @@
 
             p {
                 //border: solid red;
-                width: 95%;
-                margin-top: 1rem;
-                font-size: .9rem;
+                width: 100%;
+                font-size:1rem;
+                height: 5rem;
+                margin-top: 0rem;
+                margin-left: 0;
             }
         }
 
